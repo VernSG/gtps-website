@@ -7,3 +7,6 @@
 
 # Join Discord for question
  Join <a href="https://discord.gg/mngYm8HSQd">Discord</a> Vern SG for Support
+
+ # Follow Github/Youtube Vern SG
+ 
