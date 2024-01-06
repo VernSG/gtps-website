@@ -1,0 +1,209 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>404 Page Not Found</title><style>:root {
+                --illustration-main-color: #D82E23 !important;
+            }</style><style>.current-url {
+            word-wrap: break-word;
+        }</style><style type="text/css">:root {
+    --main-text-color: #4E4E4E;
+    --secondary-text-color: #959595;
+
+    --illustration-main-color: #C3C3CC;
+
+    --btn-border-radius: 0.25rem;
+
+    --primary-btn-background: #C3C3CC;
+    --primary-btn-color: #FCFCFC;
+
+    --secondary-btn-background: #FCFCFC;
+    --secondary-btn-color: #C3C3CC;
+
+    --main-icon-color: #C3C3CC;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+html {
+    height: 100%;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    min-height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FCFCFC;
+}
+
+.hidden {
+    display: none;
+}
+
+.container, .hero {
+    max-width: 78.125rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    align-self: center;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    min-height: 37.5rem;
+    width: 100%;
+    flex-direction: column;
+}
+
+.text-wrapper {
+    width: 90%;
+    align-self: center;
+}
+
+
+#illustration {
+    display: none;
+    width: 24rem;
+    align-items: center;
+}
+
+.error-code {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+h1 {
+    line-height: 0.5;
+    margin: 5rem 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 62px;
+    word-wrap: break-word;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.content-en h1,
+.content-en h2,
+.content-en .button a {
+    text-transform: capitalize;
+}
+
+.desc {
+    color: var(--main-text-color);
+    margin: 2rem 0 0 0;
+}
+
+.back-btn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--main-text-color);
+    margin-top: 5rem;
+    display: flex;
+}
+
+.arrow-left {
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.arrow-left path {
+    fill: var(--main-text-color);
+}
+
+.back-btn:hover {
+    color: var(--secondary-text-color);
+}
+
+.back-btn:hover .arrow-left path {
+    fill: var(--secondary-text-color);
+}
+
+.button {
+    padding: 0;
+    margin: 0 1rem 0 0;
+    border: none;
+    border-radius: var(--btn-border-radius);
+    cursor: pointer;
+    background-color: var(--primary-btn-background);
+}
+
+.button a {
+    display: inline-block;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.primary {
+    background-color: var(--primary-btn-background);
+    border: 2px solid var(--primary-btn-background);
+    margin-right: 0.5rem;
+}
+
+.primary a {
+    color: var(--primary-btn-color);
+}
+
+.secondary {
+    background-color: var(--secondary-btn-background);
+    border: 2px solid var(--secondary-btn-color);
+}
+
+.secondary a {
+    color: var(--secondary-btn-color);
+}
+
+.auto-placed {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 5rem;
+    color: var(--secondary-text-color);
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 85%;
+    }
+
+    .hero {
+        flex-direction: row;
+    }
+
+    #illustration {
+        display: block;
+    }
+
+    .text-wrapper {
+        width: 50%;
+    }
+}
+</style></head><body><section class="container"><div class="content-et hidden"><h1 class="error-code">404</h1><h3 class="title">Lehte ei leitud</h3><p class="desc">Lehte <strong><span class="current-url"></span></strong> siin serveris ei leitud.</p><button onclick="history.back()" class="back-btn"><svg width="20" height="20" class="arrow-left" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M19 10.6126H3.34256L10.8647 18.1347L9.99939 19L1 10.0006L10.0006 1L10.8659 1.8653L3.34256 9.38866H19V10.6126Z" fill="black"/></svg> Tagasi</button><p class="auto-placed">Käesolev leht on siia automaatselt paigutatud Zone poolt.</p></div><div class="content-ru hidden"><h1 class="error-code">404</h1><h3 class="title">Страница не найдена</h3><p class="desc">Запрашиваемый URL-адрес <strong><span class="current-url"></span></strong> не был найден на этом сервере.</p><button onclick="history.back()" class="back-btn"><svg width="20" height="20" class="arrow-left" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M19 10.6126H3.34256L10.8647 18.1347L9.99939 19L1 10.0006L10.0006 1L10.8659 1.8653L3.34256 9.38866H19V10.6126Z" fill="black"/></svg> Tagasi</button><p class="auto-placed">Эта страница размещена здесь автоматически компанией Zone .</p></div><div class="content-fi hidden"><h1 class="error-code">404</h1><h3 class="title">Sivua ei löydy</h3><p class="desc">Pyydettyä URL-osoitetta <strong><span class="current-url"></span></strong> ei löytynyt tältä palvelimelta.</p><button onclick="history.back()" class="back-btn"><svg width="20" height="20" class="arrow-left" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M19 10.6126H3.34256L10.8647 18.1347L9.99939 19L1 10.0006L10.0006 1L10.8659 1.8653L3.34256 9.38866H19V10.6126Z" fill="black"/></svg> Takaisin</button><p class="auto-placed">Tämän sivun on tänne automaattisesti sijoittanut Zone.</p></div><div class="content-en hidden"><h1 class="error-code">404</h1><h3 class="title">Page Not Found</h3><p class="desc">The requested URL <strong><span class="current-url"></span></strong> was not found on this server.</p><button onclick="history.back()" class="back-btn"><svg width="20" height="20" class="arrow-left" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M19 10.6126H3.34256L10.8647 18.1347L9.99939 19L1 10.0006L10.0006 1L10.8659 1.8653L3.34256 9.38866H19V10.6126Z" fill="black"/></svg> Go Back</button><p class="auto-placed">This page is placed here automatically by Zone.</p></div></section><script defer="defer">(()=>{var e={225:()=>{const e=document.querySelectorAll(".content-et"),t=document.querySelectorAll(".content-ru"),r=document.querySelectorAll(".content-fi"),o=document.querySelectorAll(".content-en");let n=navigator.language.substring(0,2),c=location.hostname,l=location.href.split("/").slice(-1);l=l[0].split(".").slice(1,-1).join("."),"et"===n?e.forEach((e=>{e.classList.remove("hidden")})):"ru"===n?t.forEach((e=>{e.classList.remove("hidden")})):"fi"===n?r.forEach((e=>{e.classList.remove("hidden")})):o.forEach((e=>{e.classList.remove("hidden")})),function(){let e=document.querySelectorAll(".current-domain");e&&e.forEach((e=>{e.innerText=c}))}(),function(){let e=document.querySelectorAll(".current-url");e&&e.forEach((e=>{e.innerText=c+location.pathname}))}()}},t={};function r(o){var n=t[o];if(void 0!==n)return n.exports;var c=t[o]={exports:{}};return e[o](c,c.exports,r),c.exports}r.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return r.d(t,{a:t}),t},r.d=(e,t)=>{for(var o in t)r.o(t,o)&&!r.o(e,o)&&Object.defineProperty(e,o,{enumerable:!0,get:t[o]})},r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{"use strict";r(225)})()})();</script></body></html>
